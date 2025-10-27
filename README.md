@@ -14,29 +14,30 @@ This project demonstrates **modern full-stack development** using:
 
 ## 🚀 Project Structure
 
-DevPlay/
-│
-├── client/ # Frontend (React + Vite)
-│ ├── public/
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # App pages (Login, Register, Home, etc.)
-│ │ ├── context/ # Auth Context (Global state)
-│ │ ├── services/ # Axios API setup
-│ │ ├── App.jsx # Root App component
-│ │ └── main.jsx # Entry point
-│ ├── package.json
-│ └── vite.config.js
-│
-├── server/ # Backend (Express + MongoDB)
-│ ├── config/ # MongoDB connection
-│ ├── controllers/ # Logic for authentication, game logic, etc.
-│ ├── models/ # Mongoose schemas (User, Game, etc.)
-│ ├── routes/ # API routes
-│ ├── server.js # Main server entry file
-│ └── package.json
-│
-└── README.md # You're here!
+---bash
+| Folder / File | Description |
+|----------------|-------------|
+| **client/** | Frontend (React + Vite) |
+| ┣ 📂 **public/** | Static assets and index.html |
+| ┣ 📂 **src/** | Source code for frontend |
+| ┃ ┣ 📂 **components/** | Reusable UI components (e.g., Navbar, GameCanvas) |
+| ┃ ┣ 📂 **pages/** | Application pages (Login, Signup, Home, Game, etc.) |
+| ┃ ┣ 📂 **context/** | AuthContext for global user authentication state |
+| ┃ ┣ 📂 **services/** | Axios API configuration and HTTP helpers |
+| ┃ ┣ 📜 **App.jsx** | Main React component and route definitions |
+| ┃ ┗ 📜 **main.jsx** | React app entry point (renders App) |
+| ┣ 📜 **package.json** | Client dependencies and scripts |
+| ┗ 📜 **vite.config.js** | Vite configuration file |
+| **server/** | Backend (Express + MongoDB) |
+| ┣ 📂 **config/** | MongoDB connection setup |
+| ┣ 📂 **controllers/** | Logic for authentication and gameplay APIs |
+| ┣ 📂 **models/** | Mongoose models (User, Game, etc.) |
+| ┣ 📂 **routes/** | Express routes for API endpoints |
+| ┣ 📜 **server.js** | Backend entry point (Express app) |
+| ┗ 📜 **package.json** | Backend dependencies and scripts |
+| **README.md** | Project documentation (this file) |
+
+---
 
 ---
 
