@@ -16,7 +16,7 @@ export default function Signup() {
     setLoading(true);
     try {
       await signup(username, email, password);
-      navigate("/game");
+      navigate("/login");
     } catch (err) {
       alert("Signup failed: " + err.message);
     } finally {

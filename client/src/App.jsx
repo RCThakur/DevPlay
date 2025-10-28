@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import GamePage from "./pages/GamePage";
 import Dashboard from "./components/Dashboard";
+import SyntaxCity from "./pages/SyntaxCity";
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/game" element={<GamePage />} />
+        <Route path="/syntax-city" element={<SyntaxCity />} />
+        <Route path="/level2" element={<SyntaxCity />} />
       </Routes>
     </BrowserRouter>
   );
