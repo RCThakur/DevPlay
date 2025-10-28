@@ -15,7 +15,7 @@ export default function Login() {
     setLoading(true);
     try {
       await login(email, password);
-      navigate("/game");
+      navigate("/dashboard");
     } catch (err) {
       alert("Login failed: " + err.message);
     } finally {
